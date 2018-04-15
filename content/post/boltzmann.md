@@ -1,6 +1,7 @@
 ---
 title: "Note-An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer"
 date: 2018-04-14T18:04:29-04:00
+tags: Boltzmann 
 draft: False
 ---
 
@@ -9,7 +10,7 @@ draft: False
 
 ## 1. Collision frequency in ideal gas:
 
-$$\gamma=n\pi d^2 \overline{g}$$
+$$\nu=n\pi d^2 \overline{g}$$
 
 n is the number density, $\overline{g}$ is a mean relative velocity.
 
