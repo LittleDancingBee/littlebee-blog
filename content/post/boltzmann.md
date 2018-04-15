@@ -1,8 +1,10 @@
 ---
-title: "Note-An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer"
+title: "Chap 1"
 date: 2018-04-14T18:04:29-04:00
-tags: Boltzmann 
 draft: False
+categories: ["An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer"]
+tags: ["Boltzman"]
+
 ---
 
 # Chap 1
@@ -59,4 +61,6 @@ $$p=2\int_0^{+\infty} \int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty}mc_3^2f(
 $$=\frac{1}{3}\int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty}\int\_{-\infty}^{+\infty}mc^2f(c_1,c_2,c_3)dc_1dc_2dc_3=nkT$$
 
 $$p=\frac{2\rho \epsilon}{3}$$
+
+cao ma bi
 
