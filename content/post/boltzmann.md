@@ -40,7 +40,7 @@ and the most probable velocity is
 $$c_{mp}=\sqrt\frac{2kT}{m}$$
 
 and the mean quadratic velocity is 
-$$c_{mq}=\sqrt{\overline{c^2}}=\frac{\int_0^{\infty}c^2F( c )dc}{\int_0^{\infty}F( c )dc}=\sqrt\frac{3kT}{m}$$
+$$c_{mq}=\sqrt{\overline{c^2}}=\sqrt{\frac{\int_0^{\infty}c^2F( c )dc}{\int_0^{\infty}F( c )dc}}=\sqrt\frac{3kT}{m}$$
 
 The mean relative velocity, mean free time, and mean free path:
 $$\overline{g}=\sqrt{2}\overline{c}$$
@@ -88,7 +88,7 @@ where the self-diffusion coefficient $D=\frac{\overline{c}l}{3}=\frac{2}{3\pi^\f
 The self-diffusion coefficient is inversely proportional to the number density but has the sam dependence on the temperature as the shear viscocity and thermal conductiviey coefficients.
 
 ## 2.2 Characteristic Dimensions
-{{% figure class="center" src="/boltzmann/table1.png" alt="hugo even showcase" title="table1" %}}
+{{% figure class="center" src="/boltzmann/table1.png" alt="hugo even showcase" title="Characteristic Dimensions" %}}
 
 ## 2.3 Potentials
 Short range force-valence force-repulsive, and due to a superposition of the electronic clouds of the molecules when they get closer to each other.
