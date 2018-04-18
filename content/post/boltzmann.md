@@ -116,3 +116,42 @@ $\nu=5$ is called Maxwellian potential
 $$\Psi ( r )=4\epsilon[(\frac{\sigma}{r})^{12}-(\frac{\sigma}{r})^6]$$
 
 # 3. Brownian Motion
+The particles in suspension in water are moving due to an impulse (collisions between the molecules of the fluid and the particles and some molecules of the fluid have colovities larger than its mean thermal velocity) and braked by viscous force. The motion of a particle is described by Langevin equation:
+$$m\frac{dv}{dt}=-\frac{m}{\tau}v+F(t)$$
+
+where $\tau$ is a constant characteristic time and $F(t)$ is a stationary random force with a vanishing time average:
+$$\overline{F(t)}=\frac{1}{\theta}\int_0^\theta F(t+t')dt'=0$$
+
+The Langevin's equation is valid if:
+
+(a) the fluid is in a medium where the external actions are constant in time (e.g., the temperature must be constant in time)
+
+(b) the mass of the particles in suspension is larger than the mass of the fluid molecules
+
+\(c\) the particle number density of the suspension particles is small, so that the collisions between themselves are neglected
+
+ergodic hypothesis: a mechanical system will go beyond all possible microstates before returning to a given microstate, i.e., over a long period of time all accessible microstates are equally probable.
+
+Multiply through $x/m$, the Langiven equation becomes
+$$\frac{d}{dt}(xv)+\frac{1}{\tau}(xv)=v^2+\frac{1}{m}xF(t)$$.
+
+Taking the average and use $\langle xF(t)\rangle=0$ and $\frac{m\langle v^2\rangle}{2}=\frac{kT}{m}$ (energy equipartition principle), the Langiven equation becomes
+$$\frac{d\langle xv\rangle}{dt}+\frac{1}{\tau}\langle xv\rangle=\frac{kT}{m}$$
+
+The solution is 
+$$\langle xv\rangle=Ce^{-\frac{t}{\tau}}+\frac{\tau kT}{m}$$
+
+with initial condition $x(t=0)=0$, $C=-\tau kT/m$, therefore, we obtain
+
+$$\langle x^2\rangle=\frac{2\tau kT}{m}[t-\tau(1-e^{-\frac{t}{\tau}})]$$
+
+(a) for $t\gg\tau$, the solution is $\langle x^2\rangle=\frac{2\tau kT}{m}t$. The mean square displacement is proportional to time.
+
+(b) for $t\ll\tau$, the solution is $\langle x^2\rangle=\langle v^2\rangle t^2$. The suspension particles move as free particles with velocity equal to its mean square velocity.
+# 4. Binary Collision
+## 4.1 Conservation laws 
+In rarefied gases, the probability of collisions with three more molecules involved is negligible compared with the binary collision. 
+
+Two particles having locations ($r_i^1$, $r_i^2$) and velocities pre collision ($\bf c$, $\bf c_1$) and post collision($\bf c'$, $\bf c'_1$) . 
+In the collision process, the momentum and energy is conserved and the relative motion between the molecules is confined to a plane.
+## 4.2 Scattering angle $\chi$
