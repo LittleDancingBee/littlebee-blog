@@ -103,17 +103,17 @@ Long range force-van der Waals force-attractive and includes:
 
 (a) Potential of hard sphere
 
-$$\Psi( r )=\infty,  r<d$$
+$$\Phi( r )=\infty,  r<d$$
 
-$$\Psi( r )=0,  r>d$$
+$$\Phi( r )=0,  r>d$$
 
 (b) Potential of Centers of Repulsion
-$$\Psi( r )=\frac{\kappa}{\nu-1}\frac{1}{r^{\nu-1}}, \kappa>0,\nu>1$$
+$$\Phi( r )=\frac{\kappa}{\nu-1}\frac{1}{r^{\nu-1}}, \kappa>0,\nu>1$$
 
 $\nu=5$ is called Maxwellian potential
 
 ( c ) Potential of Lennard-Jones
-$$\Psi ( r )=4\epsilon[(\frac{\sigma}{r})^{12}-(\frac{\sigma}{r})^6]$$
+$$\Phi ( r )=4\epsilon[(\frac{\sigma}{r})^{12}-(\frac{\sigma}{r})^6]$$
 
 # 3. Brownian Motion
 The particles in suspension in water are moving due to an impulse (collisions between the molecules of the fluid and the particles and some molecules of the fluid have colovities larger than its mean thermal velocity) and braked by viscous force. The motion of a particle is described by Langevin equation:
@@ -152,6 +152,93 @@ $$\langle x^2\rangle=\frac{2\tau kT}{m}[t-\tau(1-e^{-\frac{t}{\tau}})]$$
 ## 4.1 Conservation laws 
 In rarefied gases, the probability of collisions with three more molecules involved is negligible compared with the binary collision. 
 
-Two particles having locations ($r_i^1$, $r_i^2$) and velocities pre collision ($\bf c$, $\bf c_1$) and post collision($\bf c'$, $\bf c'_1$) . 
+Two particles having locations ($r_i^1$, $r_i^2$) and velocities pre-collision ($\bf c$, $\bf c_1$) and post-collision($\bf c'$, $\bf c'_1$) . Denote the relative position vector as $\bf {r}=\bf r^2-\bf r^1$ and the relative velocity as $\bf g=\bf c_1-\bf c$ and $\bf g'=\bf c_1'-\bf c'$. Denote the interaction potential as $\Phi( r )$. We have
+$$m\ddot{r}_i^1=-\frac{\partial\Phi( r )}{\partial r_i^1},
+m\ddot{r}_i^2=-\frac{\partial\Phi( r )}{\partial r_i^2}=\frac{\partial\Phi( r )}{\partial r_i^1}$$. 
+
+By adding these two equations, we obtain
+$$m\ddot{r}_i^1+m\ddot{r}_i^2=0$$
+
+Therefore, we have the conservation of momentum before and after the collision
+$$m{\bf c}+m{\textbf c_1}=m{\bf c'}+m\bf {c'_1}$$ 
+
+and
+$$\mu \ddot{\bf {r}}=-\frac{\partial\Phi}{\partial r}\frac{\bf {r}}{r}$$
+
+where $\mu=m/2$.
+
+Multiply by $\bf\dot{r}$ and integrate the above equation lead to
+$$\frac{d}{dt}[\frac{\mu}{2}{\bf{\dot r}}^2+\Phi( r )]=0$$
+
+This is energy conservation law through the collision
+
+$$\frac{\mu}{2}{\bf{\dot r}}^2+\Phi( r )=\frac{\mu}{2}g^2=\frac{\mu}{2}g'^2$$
+
+and then
+$$\frac{1}{2}mc^2+\frac{1}{2}mc_1^2=\frac{1}{2}mc'^2+\frac{1}{2}mc_1'^2$$
+
+From $\mu\ddot{\bf r}=-\frac{\partial \Phi}{\partial r}\frac{\bf r}{r}$, we have $\frac{d}{dt}[\mu\dot{\bf r}\times\bf{r}]=0$. Therefore, $\bf{\dot r}\times\bf{r}=$constant.
 In the collision process, the momentum and energy is conserved and the relative motion between the molecules is confined to a plane.
-## 4.2 Scattering angle $\chi$
+Define apsidal vector $\bf{k}=\frac{\bf{g}-\bf{g'}}{|\bf{g}-\bf{g'}|}$
+
+we have
+$$\bf{c'_1}=\bf{c_1}-\bf k(k\cdot g)$$
+$$\bf{c'}=\bf{c}+\bf k(k\cdot g)$$
+
+## 4.2 Two Species Collision
+If the binary collision occurs between two constituents $m\_\alpha$ and $m\_\beta$ with precollision velocity $\bf{c}\_\alpha$ and $\bf{c}\_\beta$ and postcollision velocity $\bf{c'}\_\alpha$ and $\bf{c'}\_\beta$, the conservations of momentum and energy are
+$$m\_\alpha{\bf c}_\alpha+m\_\beta{\bf c}\_\beta=m\_\alpha{\bf c'}\_\alpha+m\_\beta{\bf c'}\_\beta$$
+
+$$\frac{1}{2}m\_\alpha{\bf c}_\alpha^2+\frac{1}{2}m\_\beta{\bf c}\_\beta^2=\frac{1}{2}m\_\alpha{\bf c'}\_\alpha^2+\frac{1}{2}m\_\beta{\bf c'}\_\beta^2$$
+
+With the apsidal vector 
+$${\bf k}^{\beta\alpha}=\frac{{\bf g}_{\beta\alpha}-{\bf g'}\_{\beta\alpha}}{|{\bf g}\_{\beta\alpha}-{\bf g'}\_{\beta\alpha}|}$$
+
+The asymptotic velcoties 
+$${\bf c'}_{\beta}={\bf c}\_\beta-2\frac{m\_{\alpha\beta}}{m\_\beta}{\bf{k}^{\beta\alpha}}(\bf{k}^{\beta\alpha}\cdot {\bf g}\_{\beta\alpha})$$
+
+$${\bf c'}_{\alpha}={\bf c}\_\alpha-2\frac{m\_{\alpha\beta}}{m\_\alpha}{\bf{k}^{\beta\alpha}}(\bf{k}^{\beta\alpha}\cdot {\bf g}\_{\beta\alpha})$$
+
+with $m\_{\alpha\beta}=m\_\alpha m\_\beta /(m\_\alpha + m\_\beta)$
+
+## 4.3 Scattering angle $\chi$
+Write the equations in the polar coordinate ($r$,$\varphi$), we have
+$$\frac{\mu}{2}(\dot r^2 + r^2\dot\varphi^2)+\Phi( r )=\frac{\mu}{2}g^2$$
+
+$$r^2\dot\varphi=bg$$
+
+follows:
+$$(\frac{ds}{d\varphi})^2=1-s^2-\frac{2\Phi}{\mu g^2}$$
+
+where $s=b/r$ is a dimensionless variable and $\dot r/\dot\varphi=dr/d\varphi=-b(ds/d\varphi)/s^2$
+
+The scattering angle $\chi=\pi-2\theta$ is then
+$$\chi=\pi-\int_{0}^{s\_{max}}(2/ \sqrt{1-s^2-\frac{2\Phi(b/s)}{\mu g^2}})ds$$
+
+$s\_{max}$ is the positive root of the equation $1-s^2-\frac{2\Phi(b/s\_{max})}{\mu g^2}=0$
+
+The scattering angle for a given potential is determined by the impact parameter $b$ and the relative velocity $g$.
+
+(a) Centers of repulsion potential
+$$\chi=\pi-\int_{0}^{s\_{max}}(2/ \sqrt{1-s^2-\frac{2}{\nu-1}(\frac{s}{s\_0})^{\nu-1}})ds$$
+
+and $s\_0=b(\frac{\mu g^2}{\kappa})^{\frac{1}{\nu-1}}$ 
+
+(b)The hard-sphere potential can be obtained by setting a limit of the centers of repulsion potential.
+
+Introduce a new parameter $\kappa=\kappa' d^{\nu-1}$, where $\kappa'$ is a constant and d is the molecular diameter, we then have
+$$\Phi( r )=\frac{\kappa'}{\nu-1}(\frac{d}{r})^{\nu-1}$$
+
+then 
+$$s\_0=\frac{b}{d}(\frac{\mu g^2}{\kappa'})^{\frac{1}{\nu-1}}$$
+
+and 
+$$\lim_{\nu \to \infty}=\frac{b}{d}$$
+
+for $r\gg d$, $\lim\_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{\_0}})^{\nu-1}=0$, then $\chi=\pi-\int\_{0}^{s\_{max}}(2 / \sqrt{1-s^2} ds=2\arccos s\_{max}$, where $s\_{max}=b/r^{min}$
+
+(i) for $s\_0\gg 1$, nonexistence of collision, $\chi=0$
+
+(ii) for $s\_0\ll 1$, existence of a collision and the scattering angle is $\chi=2\arccos(\frac{b}{d})$.
+## 4.4 Differential Cross Section
+
