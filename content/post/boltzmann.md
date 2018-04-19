@@ -219,6 +219,8 @@ $s\_{max}$ is the positive root of the equation $1-s^2-\frac{2\Phi(b/s\_{max})}{
 
 The scattering angle for a given potential is determined by the impact parameter $b$ and the relative velocity $g$.
 
+{{% figure class="center" src="/boltzmann/binarycollision.png" alt="hugo even showcase" title="Binary Collision Sketch" %}}
+
 (a) Centers of repulsion potential
 $$\chi=\pi-\int_{0}^{s\_{max}}(2/ \sqrt{1-s^2-\frac{2}{\nu-1}(\frac{s}{s\_0})^{\nu-1}})ds$$
 
@@ -241,4 +243,7 @@ for $r\gg d$, $\lim\_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{\_0}})^{\nu-1}=0$,
 
 (ii) for $s\_0\ll 1$, existence of a collision and the scattering angle is $\chi=2\arccos(\frac{b}{d})$.
 ## 4.4 Differential Cross Section
+{{% figure class="center" src="/boltzmann/differentialcrosssection" alt="hugo even showcase" title="Differential Cross Section" %}}
 
+The differential cross section, a function of the scattering angle and of the kinetic energy of the relative motion $\sigma(\chi,g)$, is defined as the ratio of the number of scattered particles $\Delta N$ per unit of time and per element of solid angle, and the flux of the impinged molecules:
+$$\sigma (\chi,g)=\frac{\Delta N(\Delta t d\Omega)}{\Delta N/(\Delta t b db d\epsilon}=\frac{bdbd\epsilon}{d\Omega}$$
