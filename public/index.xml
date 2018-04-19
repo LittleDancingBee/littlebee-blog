@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Little Bee&#39;s Blog</title>
+    <link>https://littledancingbee.github.io/</link>
+    <description>Recent content on Little Bee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Apr 2018 03:35:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://littledancingbee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://littledancingbee.github.io/about/</link>
+      <pubDate>Sun, 15 Apr 2018 03:35:00 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/about/</guid>
+      <description>This is Little Bee’s Blog.</description>
+    </item>
+    
+    <item>
+      <title>Cluster</title>
+      <link>https://littledancingbee.github.io/post/cluster/</link>
+      <pubDate>Tue, 17 Apr 2018 14:24:48 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/cluster/</guid>
+      <description>&lt;h1 id=&#34;node-details&#34;&gt;Node Details&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SEP ipTrans</title>
+      <link>https://littledancingbee.github.io/post/sepcode/</link>
+      <pubDate>Mon, 16 Apr 2018 23:30:11 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/sepcode/</guid>
+      <description>&lt;h1 id=&#34;sep-code-explanation&#34;&gt;SEP code explanation&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Newpost</title>
+      <link>https://littledancingbee.github.io/post/newpost/</link>
+      <pubDate>Sun, 15 Apr 2018 16:31:58 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/newpost/</guid>
+      <description>   Time To do     9-10 Boltzmann   10-12 Research   12-14 Lunch   14-16 Statistics   16-18 Research   18-20 Dinner   20-24 Research    </description>
+    </item>
+    
+    <item>
+      <title>Chap 1</title>
+      <link>https://littledancingbee.github.io/post/boltzmann/</link>
+      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/boltzmann/</guid>
+      <description>&lt;h1 id=&#34;1-collision-frequency-in-ideal-gas&#34;&gt;1. Collision frequency in ideal gas&lt;/h1&gt;
+
+&lt;p&gt;$$\nu=n\pi d^2 \overline{g}$$&lt;/p&gt;
+
+&lt;p&gt;n is the number density, $\overline{g}$ is a mean relative velocity.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fit with heavy tail distribution</title>
+      <link>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</link>
+      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</guid>
+      <description>Levy Distribution  $$ f=\frac{1}{x\sqrt{2\pi x}}e^{-\frac{1}{2x}} $$</description>
+    </item>
+    
+  </channel>
+</rss>

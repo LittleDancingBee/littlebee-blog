@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="https://littledancingbee.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://littledancingbee.github.io/about/</loc>
+    <lastmod>2018-04-15T03:35:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/cluster/</loc>
+    <lastmod>2018-04-17T14:24:48-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/sepcode/</loc>
+    <lastmod>2018-04-16T23:30:11-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/newpost/</loc>
+    <lastmod>2018-04-15T16:31:58-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/boltzmann/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/categories/</loc>
+    <lastmod>2018-04-15T16:31:58-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/categories/an-introduction-to-the-boltzmann-equation-and-transport-processes-in-gases-by-gilberto-medeiros-kremer/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/tags/boltzman/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/categories/</loc>
+    <lastmod>2018-04-15T16:31:58-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/categories/cluster/</loc>
+    <lastmod>2018-04-17T14:24:48-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/tags/doudou/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/</loc>
+    <lastmod>2018-04-15T03:35:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/</loc>
+    <lastmod>2018-04-17T14:24:48-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/categories/sep/</loc>
+    <lastmod>2018-04-16T23:30:11-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/tags/</loc>
+    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

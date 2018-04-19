@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sep on Little Bee&#39;s Blog</title>
+    <link>https://littledancingbee.github.io/categories/sep/</link>
+    <description>Recent content in Sep on Little Bee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Apr 2018 23:30:11 -0400</lastBuildDate>
+    
+	<atom:link href="https://littledancingbee.github.io/categories/sep/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SEP ipTrans</title>
+      <link>https://littledancingbee.github.io/post/sepcode/</link>
+      <pubDate>Mon, 16 Apr 2018 23:30:11 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/sepcode/</guid>
+      <description>&lt;h1 id=&#34;sep-code-explanation&#34;&gt;SEP code explanation&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fit with heavy tail distribution</title>
+      <link>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</link>
+      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</guid>
+      <description>Levy Distribution  $$ f=\frac{1}{x\sqrt{2\pi x}}e^{-\frac{1}{2x}} $$</description>
+    </item>
+    
+  </channel>
+</rss>

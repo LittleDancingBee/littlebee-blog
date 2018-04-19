@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Little Bee&#39;s Blog</title>
+    <link>https://littledancingbee.github.io/tags/</link>
+    <description>Recent content in Tags on Little Bee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Apr 2018 18:04:29 -0400</lastBuildDate>
+    
+	<atom:link href="https://littledancingbee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boltzman</title>
+      <link>https://littledancingbee.github.io/tags/boltzman/</link>
+      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/tags/boltzman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doudou</title>
+      <link>https://littledancingbee.github.io/tags/doudou/</link>
+      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/tags/doudou/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
