@@ -245,5 +245,5 @@ for $r\gg d$, $\lim\_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{\_0}})^{\nu-1}=0$,
 ## 4.4 Differential Cross Section
 {{% figure class="center" src="/boltzmann/differentialcrosssection" alt="hugo even showcase" title="Differential Cross Section" %}}
 
-The differential cross section, a function of the scattering angle and of the kinetic energy of the relative motion $\sigma(\chi,g)$, is defined as the ratio of the number of scattered particles $\Delta N$ per unit of time and per element of solid angle, and the flux of the impinged molecules:
+The differential cross section, a function of the scattering angle and of the kinetic energy of the relative motion $\sigma(\chi,g)$, is defined as the ratio of the number of scattered particles $\Delta N$ per unit of time and per element of solid angle ($d\Omega=\sin\chi d\chi d\epsilon$), and the flux of the impinged molecules:
 $$\sigma (\chi,g)=\frac{\Delta N(\Delta t d\Omega)}{\Delta N/(\Delta t b db d\epsilon}=\frac{bdbd\epsilon}{d\Omega}$$
