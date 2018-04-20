@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Chap 1 Basic Principles of the Kinetic Theory - Little Bee&#39;s Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Little Bee" />
+  <meta name="description" content="1. Collision frequency in ideal gas $$\nu=n\pi d^2 \overline{g}$$
+n is the number density, $\overline{g}$ is a mean relative velocity.
+
+" />
+
+  <meta name="keywords" content="Physics" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.39" />
+
+
+<link rel="canonical" href="https://littledancingbee.github.io/post/boltzmann_ch1/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Chap 1 Basic Principles of the Kinetic Theory" />
+<meta property="og:description" content="1. Collision frequency in ideal gas
+
+$$\nu=n\pi d^2 \overline{g}$$
+
+n is the number density, $\overline{g}$ is a mean relative velocity.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://littledancingbee.github.io/post/boltzmann_ch1/" />
+
+
+
+<meta property="article:published_time" content="2018-04-19T16:28:29-04:00"/>
+
+<meta property="article:modified_time" content="2018-04-19T16:28:29-04:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Chap 1 Basic Principles of the Kinetic Theory">
+<meta itemprop="description" content="1. Collision frequency in ideal gas
+
+$$\nu=n\pi d^2 \overline{g}$$
+
+n is the number density, $\overline{g}$ is a mean relative velocity.
+
+">
+
+
+<meta itemprop="datePublished" content="2018-04-19T16:28:29-04:00" />
+<meta itemprop="dateModified" content="2018-04-19T16:28:29-04:00" />
+<meta itemprop="wordCount" content="1310">
+
+
+
+<meta itemprop="keywords" content="Boltzman," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chap 1 Basic Principles of the Kinetic Theory"/>
+<meta name="twitter:description" content="1. Collision frequency in ideal gas
+
+$$\nu=n\pi d^2 \overline{g}$$
+
+n is the number density, $\overline{g}$ is a mean relative velocity.
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">LittleBee</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">LittleBee</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Chap 1 Basic Principles of the Kinetic Theory</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-19 </span>
+        <div class="post-category">
+            
+              <a href="/categories/an-introduction-to-the-boltzmann-equation-and-transport-processes-in-gases-by-gilberto-medeiros-kremer/"> An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas</a></li>
+<li><a href="#2-maxwellian-velocity-distribution-function">2. Maxwellian Velocity Distribution Function</a>
+<ul>
+<li><a href="#2-1-pressure-tensor-heat-flux-vector-and-the-molecular-flux">2.1 Pressure tensor, heat flux vector and the molecular flux</a></li>
+<li><a href="#2-2-characteristic-dimensions">2.2 Characteristic Dimensions</a></li>
+<li><a href="#2-3-potentials">2.3 Potentials</a></li>
+</ul></li>
+<li><a href="#3-brownian-motion">3. Brownian Motion</a></li>
+<li><a href="#4-binary-collision">4. Binary Collision</a>
+<ul>
+<li><a href="#4-1-conservation-laws">4.1 Conservation laws</a></li>
+<li><a href="#4-2-two-species-collision">4.2 Two Species Collision</a></li>
+<li><a href="#4-3-scattering-angle-chi">4.3 Scattering angle $\chi$</a></li>
+<li><a href="#4-4-differential-cross-section">4.4 Differential Cross Section</a></li>
+</ul></li>
+<li><a href="#appendix-gamma-function">Appendix - Gamma Function</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h1 id="1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas</h1>
+
+<p>$$\nu=n\pi d^2 \overline{g}$$</p>
+
+<p>n is the number density, $\overline{g}$ is a mean relative velocity.</p>
+
+<p></p>
+
+<h1 id="2-maxwellian-velocity-distribution-function">2. Maxwellian Velocity Distribution Function</h1>
+
+<p>$$f(c_1,c_2,c_3)=n(\frac{m}{2\pi kT})^{\frac{3}{2}}e^{-mc^2/(2kT)}$$
+defines the probability of finding molecules having velocity ($c_1$,$c_2$,$c_3$) &amp;</p>
+
+<p>$$F( c )dc=\int_0^{2\pi}\int_0^\pi n(\frac{m}{2\pi kT})^{\frac{3}{2}}
+e^{-mc^2/(2kT)}c^2\sin\theta d\theta d\varphi dc$$
+defines the probability of finding molecules having velocity magnitude c.</p>
+
+<p>$$\rho=mn=\int_{-\infty}^{\infty}mfdc_1dc_2dc_3$$</p>
+
+<p>$$\rho \epsilon=\frac{3}{2}nkT=\int_{-\infty}^{\infty}\frac{1}{2}mc^2fdc_1dc_2dc_3$$</p>
+
+<p>$$=n(\frac{m}{2\pi kT})^\frac{3}{2}4\pi c^2e^{-mc^2/(2kT)}$$</p>
+
+<p>Therefore, the mean thermal velocity of a molecule is</p>
+
+<p>$$\overline{c}=\frac{\int_0^{\infty}cF( c )dc}{\int_0^{\infty}F( c )dc}=\sqrt{\frac{8kT}{\pi m}}$$</p>
+
+<p>and the most probable velocity is</p>
+
+<p>$$c_{mp}=\sqrt\frac{2kT}{m}$$</p>
+
+<p>and the mean quadratic velocity is
+$$c_{mq}=\sqrt{\overline{c^2}}=\sqrt{\frac{\int_0^{\infty}c^2F( c )dc}{\int_0^{\infty}F( c )dc}}=\sqrt\frac{3kT}{m}$$</p>
+
+<p>The mean relative velocity, mean free time, and mean free path:
+$$\overline{g}=\sqrt{2}\overline{c}$$</p>
+
+<p>$$\tau=\frac{1}{4nd^2}\sqrt\frac{m}{\pi kT}$$</p>
+
+<p>$$l=\frac{1}{\sqrt{2}\pi d^2 n}$$</p>
+
+<p>The molecular flux over surface perp to $x_3$
+$$\phi=\int_0^\infty\int_0^\frac{\pi}{2}\int_0^{2\pi}n(\frac{m}{2\pi kT})^\frac{3}{2}e^{-mc^2/(2kT)}c\cos\theta\sin\theta d\varphi d\theta dc$$</p>
+
+<p>$$=\frac{n}{4}\sqrt\frac{8kT}{\pi m}=\frac{n}{4}\overline{c}$$</p>
+
+<p>The total pressure
+$$p=2\int_0^{+\infty} \int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}mc_3^2f(c_1,c_2,c_3)dc_1dc_2dc_3$$</p>
+
+<p>$$=\frac{1}{3}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}mc^2f(c_1,c_2,c_3)dc_1dc_2dc_3=nkT$$</p>
+
+<p>$$p=\frac{2\rho \epsilon}{3}$$</p>
+
+<h2 id="2-1-pressure-tensor-heat-flux-vector-and-the-molecular-flux">2.1 Pressure tensor, heat flux vector and the molecular flux</h2>
+
+<p>(a) Consider a fluid confined between two parallel plates and the plate at the bottom is at rest while the top plate is moving with a constant
+velocity. The velocity is dependent on the distance.
+Sheer viscocity coefficient, independent of gas&rsquo;s density and proportional to the square root of the temperature
+$$\mu=\frac{2\sqrt{mkT}}{3\pi^\frac{3}{2}d^2}$$</p>
+
+<p>(b) Consider two parallel plates, the bottom one has a temperature $T_1$ and the top one has a temperature $T_2$,
+the total heat flux vector is given by
+$$q=-3kl\frac{dT}{dx_3}\int_0^{\infty}\int_0^\frac{\pi}{2}\int_0^{2\pi}n(
+\frac{m}{2\pi kT})^\frac{3}{2}e^{-mc^2/(2kT)}c^3\cos^2\theta\sin\theta d\varphi d\theta dc$$</p>
+
+<p>$$=-\frac{nkl\overline{c}}{2}\frac{dT}{dx_3}$$</p>
+
+<p>where $\lambda=\frac{nkl\overline{c}}{2}=\frac{k}{m}\frac{\sqrt{mkT}}{\pi^{\frac{3}{2}}d^2}$ is the thermal conductivity coefficient, independent on the density and is proportional to square root of temperature (similar to shear viscocity).</p>
+
+<p>(3) The diffusion is process which follows from the thermal motion of the molecules of a gas mixture, when mass transfer from one region to another occurs due to the existence of density gradients of its consituents.
+Consider gas is confined between two fixed parallel plates having the same temperature but different number density.
+Then the molecular flux cross a surface is
+$$j_3=-2(\frac{m}{2\pi kT})\frac{3}{2}\frac{dn}{dx_3}l\int_0^\infty\int_0^\frac{\pi}{2}\int_0^{2\pi}c^3 e^{-mc^2/(2kT)}c^3\cos^2\theta\sin\theta d\varphi d\theta dc$$</p>
+
+<p>$$=-\frac{\overline{c}l}{3}\frac{dn}{dx_3}=-D\frac{dn}{dx_3}$$</p>
+
+<p>where the self-diffusion coefficient $D=\frac{\overline{c}l}{3}=\frac{2}{3\pi^\frac{3}{2}}\frac{\sqrt{mkT}}{mnd^2}$</p>
+
+<p>The self-diffusion coefficient is inversely proportional to the number density but has the sam dependence on the temperature as the shear viscocity and thermal conductiviey coefficients.</p>
+
+<h2 id="2-2-characteristic-dimensions">2.2 Characteristic Dimensions</h2>
+
+
+<figure class="center">
+    
+        <img src="/boltzmann/table1.png" alt="hugo even showcase" />
+    
+    
+    <figcaption>
+        <h4>Characteristic Dimensions</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="2-3-potentials">2.3 Potentials</h2>
+
+<p>Short range force-valence force-repulsive, and due to a superposition of the electronic clouds of the molecules when they get closer to each other.</p>
+
+<p>Long range force-van der Waals force-attractive and includes:</p>
+
+<p>(1) electrostatic contributions (interactions between different multipole moments)</p>
+
+<p>(2) induction contributions (interaction between a charge distribution of one molecule and the induced moments of another molecule)</p>
+
+<p>(3) dispersion contribution (interaction between two induced charged distribution)</p>
+
+<p>(a) Potential of hard sphere</p>
+
+<p>$$\Phi( r )=\infty,  r&lt;d$$</p>
+
+<p>$$\Phi( r )=0,  r&gt;d$$</p>
+
+<p>(b) Potential of Centers of Repulsion
+$$\Phi( r )=\frac{\kappa}{\nu-1}\frac{1}{r^{\nu-1}}, \kappa&gt;0,\nu&gt;1$$</p>
+
+<p>$\nu=5$ is called Maxwellian potential</p>
+
+<p>( c ) Potential of Lennard-Jones
+$$\Phi ( r )=4\epsilon[(\frac{\sigma}{r})^{12}-(\frac{\sigma}{r})^6]$$</p>
+
+<h1 id="3-brownian-motion">3. Brownian Motion</h1>
+
+<p>The particles in suspension in water are moving due to an impulse (collisions between the molecules of the fluid and the particles and some molecules of the fluid have colovities larger than its mean thermal velocity) and braked by viscous force. The motion of a particle is described by Langevin equation:
+$$m\frac{dv}{dt}=-\frac{m}{\tau}v+F(t)$$</p>
+
+<p>where $\tau$ is a constant characteristic time and $F(t)$ is a stationary random force with a vanishing time average:
+$$\overline{F(t)}=\frac{1}{\theta}\int_0^\theta F(t+t&rsquo;)dt&rsquo;=0$$</p>
+
+<p>The Langevin&rsquo;s equation is valid if:</p>
+
+<p>(a) the fluid is in a medium where the external actions are constant in time (e.g., the temperature must be constant in time)</p>
+
+<p>(b) the mass of the particles in suspension is larger than the mass of the fluid molecules</p>
+
+<p>(c) the particle number density of the suspension particles is small, so that the collisions between themselves are neglected</p>
+
+<p>ergodic hypothesis: a mechanical system will go beyond all possible microstates before returning to a given microstate, i.e., over a long period of time all accessible microstates are equally probable.</p>
+
+<p>Multiply through $x/m$, the Langiven equation becomes
+$$\frac{d}{dt}(xv)+\frac{1}{\tau}(xv)=v^2+\frac{1}{m}xF(t)$$.</p>
+
+<p>Taking the average and use $\langle xF(t)\rangle=0$ and $\frac{m\langle v^2\rangle}{2}=\frac{kT}{m}$ (energy equipartition principle), the Langiven equation becomes
+$$\frac{d\langle xv\rangle}{dt}+\frac{1}{\tau}\langle xv\rangle=\frac{kT}{m}$$</p>
+
+<p>The solution is
+$$\langle xv\rangle=Ce^{-\frac{t}{\tau}}+\frac{\tau kT}{m}$$</p>
+
+<p>with initial condition $x(t=0)=0$, $C=-\tau kT/m$, therefore, we obtain</p>
+
+<p>$$\langle x^2\rangle=\frac{2\tau kT}{m}[t-\tau(1-e^{-\frac{t}{\tau}})]$$</p>
+
+<p>(a) for $t\gg\tau$, the solution is $\langle x^2\rangle=\frac{2\tau kT}{m}t$. The mean square displacement is proportional to time.</p>
+
+<p>(b) for $t\ll\tau$, the solution is $\langle x^2\rangle=\langle v^2\rangle t^2$. The suspension particles move as free particles with velocity equal to its mean square velocity.</p>
+
+<h1 id="4-binary-collision">4. Binary Collision</h1>
+
+<h2 id="4-1-conservation-laws">4.1 Conservation laws</h2>
+
+<p>In rarefied gases, the probability of collisions with three more molecules involved is negligible compared with the binary collision.</p>
+
+<p>Two particles having locations ($r_i^1$, $r_i^2$) and velocities pre-collision ($\bf c$, $\bf c_1$) and post-collision($\bf c&rsquo;$, $\bf c&rsquo;_1$) . Denote the relative position vector as $\bf {r}=\bf r^2-\bf r^1$ and the relative velocity as $\bf g=\bf c_1-\bf c$ and $\bf g&rsquo;=\bf c_1&rsquo;-\bf c&rsquo;$. Denote the interaction potential as $\Phi( r )$. We have
+$$m\ddot{r}_i^1=-\frac{\partial\Phi( r )}{\partial r_i^1},
+m\ddot{r}_i^2=-\frac{\partial\Phi( r )}{\partial r_i^2}=\frac{\partial\Phi( r )}{\partial r_i^1}$$.</p>
+
+<p>By adding these two equations, we obtain
+$$m\ddot{r}_i^1+m\ddot{r}_i^2=0$$</p>
+
+<p>Therefore, we have the conservation of momentum before and after the collision
+$$m{\bf c}+m{\textbf c_1}=m{\bf c&rsquo;}+m\bf {c&rsquo;_1}$$</p>
+
+<p>and
+$$\mu \ddot{\bf {r}}=-\frac{\partial\Phi}{\partial r}\frac{\bf {r}}{r}$$</p>
+
+<p>where $\mu=m/2$.</p>
+
+<p>Multiply by $\bf\dot{r}$ and integrate the above equation lead to
+$$\frac{d}{dt}[\frac{\mu}{2}{\bf{\dot r}}^2+\Phi( r )]=0$$</p>
+
+<p>This is energy conservation law through the collision</p>
+
+<p>$$\frac{\mu}{2}{\bf{\dot r}}^2+\Phi( r )=\frac{\mu}{2}g^2=\frac{\mu}{2}g&rsquo;^2$$</p>
+
+<p>and then
+$$\frac{1}{2}mc^2+\frac{1}{2}mc_1^2=\frac{1}{2}mc&rsquo;^2+\frac{1}{2}mc_1&rsquo;^2$$</p>
+
+<p>From $\mu\ddot{\bf r}=-\frac{\partial \Phi}{\partial r}\frac{\bf r}{r}$, we have $\frac{d}{dt}[\mu\dot{\bf r}\times\bf{r}]=0$. Therefore, $\bf{\dot r}\times\bf{r}=$constant.
+In the collision process, the momentum and energy is conserved and the relative motion between the molecules is confined to a plane.
+Define apsidal vector $\bf{k}=\frac{\bf{g}-\bf{g&rsquo;}}{|\bf{g}-\bf{g&rsquo;}|}$</p>
+
+<p>we have
+$$\bf{c&rsquo;_1}=\bf{c_1}-\bf k(k\cdot g)$$
+$$\bf{c&rsquo;}=\bf{c}+\bf k(k\cdot g)$$</p>
+
+<h2 id="4-2-two-species-collision">4.2 Two Species Collision</h2>
+
+<p>If the binary collision occurs between two constituents $m_\alpha$ and $m_\beta$ with precollision velocity $\bf{c}_\alpha$ and $\bf{c}_\beta$ and postcollision velocity $\bf{c&rsquo;}_\alpha$ and $\bf{c&rsquo;}_\beta$, the conservations of momentum and energy are
+$$m_\alpha{\bf c}_\alpha+m_\beta{\bf c}_\beta=m_\alpha{\bf c&rsquo;}_\alpha+m_\beta{\bf c&rsquo;}_\beta$$</p>
+
+<p>$$\frac{1}{2}m_\alpha{\bf c}_\alpha^2+\frac{1}{2}m_\beta{\bf c}_\beta^2=\frac{1}{2}m_\alpha{\bf c&rsquo;}_\alpha^2+\frac{1}{2}m_\beta{\bf c&rsquo;}_\beta^2$$</p>
+
+<p>With the apsidal vector
+$${\bf k}^{\beta\alpha}=\frac{{\bf g}_{\beta\alpha}-{\bf g&rsquo;}_{\beta\alpha}}{|{\bf g}_{\beta\alpha}-{\bf g&rsquo;}_{\beta\alpha}|}$$</p>
+
+<p>The asymptotic velcoties
+$${\bf c&rsquo;}_{\beta}={\bf c}_\beta-2\frac{m_{\alpha\beta}}{m_\beta}{\bf{k}^{\beta\alpha}}(\bf{k}^{\beta\alpha}\cdot {\bf g}_{\beta\alpha})$$</p>
+
+<p>$${\bf c&rsquo;}_{\alpha}={\bf c}_\alpha-2\frac{m_{\alpha\beta}}{m_\alpha}{\bf{k}^{\beta\alpha}}(\bf{k}^{\beta\alpha}\cdot {\bf g}_{\beta\alpha})$$</p>
+
+<p>with $m_{\alpha\beta}=m_\alpha m_\beta /(m_\alpha + m_\beta)$</p>
+
+<h2 id="4-3-scattering-angle-chi">4.3 Scattering angle $\chi$</h2>
+
+<p>Write the equations in the polar coordinate ($r$,$\varphi$), we have
+$$\frac{\mu}{2}(\dot r^2 + r^2\dot\varphi^2)+\Phi( r )=\frac{\mu}{2}g^2$$</p>
+
+<p>$$r^2\dot\varphi=bg$$</p>
+
+<p>follows:
+$$(\frac{ds}{d\varphi})^2=1-s^2-\frac{2\Phi}{\mu g^2}$$</p>
+
+<p>where $s=b/r$ is a dimensionless variable and $\dot r/\dot\varphi=dr/d\varphi=-b(ds/d\varphi)/s^2$</p>
+
+<p>The scattering angle $\chi=\pi-2\theta$ is then
+$$\chi=\pi-\int_{0}^{s_{max}}(2/ \sqrt{1-s^2-\frac{2\Phi(b/s)}{\mu g^2}})ds$$</p>
+
+<p>$s_{max}$ is the positive root of the equation $1-s^2-\frac{2\Phi(b/s_{max})}{\mu g^2}=0$</p>
+
+<p>The scattering angle for a given potential is determined by the impact parameter $b$ and the relative velocity $g$.</p>
+
+
+<figure class="center">
+    
+        <img src="/boltzmann/binarycollision.png" alt="hugo even showcase" />
+    
+    
+    <figcaption>
+        <h4>Binary Collision Sketch</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>(a) Centers of repulsion potential
+$$\chi=\pi-\int_{0}^{s_{max}}(2/ \sqrt{1-s^2-\frac{2}{\nu-1}(\frac{s}{s_0})^{\nu-1}})ds$$</p>
+
+<p>and $s_0=b(\frac{\mu g^2}{\kappa})^{\frac{1}{\nu-1}}$</p>
+
+<p>(b)The hard-sphere potential can be obtained by setting a limit of the centers of repulsion potential.</p>
+
+<p>Introduce a new parameter $\kappa=\kappa&rsquo; d^{\nu-1}$, where $\kappa&rsquo;$ is a constant and d is the molecular diameter, we then have
+$$\Phi( r )=\frac{\kappa&rsquo;}{\nu-1}(\frac{d}{r})^{\nu-1}$$</p>
+
+<p>then
+$$s_0=\frac{b}{d}(\frac{\mu g^2}{\kappa&rsquo;})^{\frac{1}{\nu-1}}$$</p>
+
+<p>and
+$$\lim_{\nu \to \infty} s_0=\frac{b}{d}$$</p>
+
+<p>for $r\gg d$, $\lim_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{_0}})^{\nu-1}=0$, then $\chi=\pi-\int_{0}^{s_{max}}(2 / \sqrt{1-s^2} ds=2\arccos s_{max}$, where $s_{max}=b/r^{min}$</p>
+
+<p>(i) for $s_0\gg 1$, nonexistence of collision, $\chi=0$</p>
+
+<p>(ii) for $s_0\ll 1$, existence of a collision and the scattering angle is $\chi=2\arccos(\frac{b}{d})$.</p>
+
+<h2 id="4-4-differential-cross-section">4.4 Differential Cross Section</h2>
+
+
+<figure class="center">
+    
+        <img src="/boltzmann/differentialcrosssection" alt="hugo even showcase" />
+    
+    
+    <figcaption>
+        <h4>Differential Cross Section</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The differential cross section, a function of the scattering angle and of the kinetic energy of the relative motion $\sigma(\chi,g)$, is defined as the ratio of the number of scattered particles $\Delta N$ per unit of time and per element of solid angle ($d\Omega=\sin\chi d\chi d\epsilon$), and the flux of the impinged molecules:
+$$\sigma (\chi,g)=\frac{\Delta N(\Delta t d\Omega)}{\Delta N/(\Delta t b db d\epsilon}=\frac{bdbd\epsilon}{d\Omega}=\frac{b}{\sin\chi}|\frac{db}{d\chi}|$$</p>
+
+<p>The effective cross section of order $l$ is defined by
+$$Q^{(l)}(g)=\int_0^\pi(1-\cos^l\chi)\sigma(\chi,g)\sin\chi d\chi=\int_0^\infty(1-\cos^l\chi)bdb$$</p>
+
+<p>in which, $Q^{(1)}$ is called transport cross section, and $Q^{(2)}$ is called viscosity cross section.</p>
+
+<p>For a hard-sphere potential, the cross section is
+$$\sigma=\frac{1}{4}d^2$$ and the effective cross section is
+$$Q^{(l)}=\frac{1}{4}d^2[2-\frac{1+(-1)^l}{l+1}]$$.</p>
+
+<p>For the centers of repulsion potensitl
+$$\sigma=(\frac{\kappa}{\mu})^{\frac{2}{\nu-1}}g^{\frac{-4}{\nu-1}}\frac{s_0}{\sin\chi}|\frac{ds_0}{d\chi}|$$ and
+$$Q^{(l)}=(\frac{\kappa}{\mu})^{\frac{2}{\nu-1}}g^{\frac{-4}{\nu-1}}A_l(\nu)$$
+and
+$$A_l(\nu)=\int_0^\infty(1-\cos^l\chi)s_0ds_0$$</p>
+
+<h1 id="appendix-gamma-function">Appendix - Gamma Function</h1>
+
+<p>$$\int_0^\infty x^n e^{-\alpha x^2}dx=\frac{1}{2}\Gamma(\frac{n+1}{2})(\frac{1}{\alpha})^{\frac{n+1}{2}}$$</p>
+
+<p>And
+$$\left\{
+\begin{align}
+&amp;\Gamma(n+1)  = n\Gamma(n) \newline
+&amp;\Gamma(1) = 1 \newline
+&amp;\Gamma(\frac{1}{2})  = \sqrt{\pi}
+\end{align}
+\right.
+$$</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Little Bee</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-04-19</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/boltzman/">Boltzman</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/boltzmann_ch2/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Chap 2 The Boltzmann Equation</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/cluster/">
+            <span class="next-text nav-default">Cluster</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'littledancingbee';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      
+<div class="social-links">
+  <a href="https://littledancingbee.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Little Bee</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

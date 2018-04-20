@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Little Bee&#39;s Blog</title>
+    <title>Little Bee&#39;s Blog</title>
     <link>https://littledancingbee.github.io/categories/</link>
-    <description>Recent content in Categories on Little Bee&#39;s Blog</description>
+    <description>Recent content on Little Bee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Apr 2018 16:31:58 -0400</lastBuildDate>
@@ -12,39 +12,12 @@
     
     
     <item>
-      <title></title>
-      <link>https://littledancingbee.github.io/categories/</link>
+      <title>Newpost</title>
+      <link>https://littledancingbee.github.io/post/newpost/</link>
       <pubDate>Sun, 15 Apr 2018 16:31:58 -0400</pubDate>
       
-      <guid>https://littledancingbee.github.io/categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer</title>
-      <link>https://littledancingbee.github.io/categories/an-introduction-to-the-boltzmann-equation-and-transport-processes-in-gases-by-gilberto-medeiros-kremer/</link>
-      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
-      
-      <guid>https://littledancingbee.github.io/categories/an-introduction-to-the-boltzmann-equation-and-transport-processes-in-gases-by-gilberto-medeiros-kremer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cluster</title>
-      <link>https://littledancingbee.github.io/categories/cluster/</link>
-      <pubDate>Tue, 17 Apr 2018 14:24:48 -0400</pubDate>
-      
-      <guid>https://littledancingbee.github.io/categories/cluster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sep</title>
-      <link>https://littledancingbee.github.io/categories/sep/</link>
-      <pubDate>Mon, 16 Apr 2018 23:30:11 -0400</pubDate>
-      
-      <guid>https://littledancingbee.github.io/categories/sep/</guid>
-      <description></description>
+      <guid>https://littledancingbee.github.io/post/newpost/</guid>
+      <description>   Time To do     9-10 Boltzmann   10-12 Research   12-14 Lunch   14-16 Statistics   16-18 Research   18-20 Dinner   20-24 Research    </description>
     </item>
     
   </channel>

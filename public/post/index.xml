@@ -6,10 +6,34 @@
     <description>Recent content in Posts on Little Bee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Apr 2018 14:24:48 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 16:29:35 -0400</lastBuildDate>
     
 	<atom:link href="https://littledancingbee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chap 2 The Boltzmann Equation</title>
+      <link>https://littledancingbee.github.io/post/boltzmann_ch2/</link>
+      <pubDate>Thu, 19 Apr 2018 16:29:35 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/boltzmann_ch2/</guid>
+      <description> 1 </description>
+    </item>
+    
+    <item>
+      <title>Chap 1 Basic Principles of the Kinetic Theory</title>
+      <link>https://littledancingbee.github.io/post/boltzmann_ch1/</link>
+      <pubDate>Thu, 19 Apr 2018 16:28:29 -0400</pubDate>
+      
+      <guid>https://littledancingbee.github.io/post/boltzmann_ch1/</guid>
+      <description>&lt;h1 id=&#34;1-collision-frequency-in-ideal-gas&#34;&gt;1. Collision frequency in ideal gas&lt;/h1&gt;
+
+&lt;p&gt;$$\nu=n\pi d^2 \overline{g}$$&lt;/p&gt;
+
+&lt;p&gt;n is the number density, $\overline{g}$ is a mean relative velocity.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Cluster</title>
@@ -40,21 +64,6 @@
       
       <guid>https://littledancingbee.github.io/post/newpost/</guid>
       <description>   Time To do     9-10 Boltzmann   10-12 Research   12-14 Lunch   14-16 Statistics   16-18 Research   18-20 Dinner   20-24 Research    </description>
-    </item>
-    
-    <item>
-      <title>Chap 1</title>
-      <link>https://littledancingbee.github.io/post/boltzmann/</link>
-      <pubDate>Sat, 14 Apr 2018 18:04:29 -0400</pubDate>
-      
-      <guid>https://littledancingbee.github.io/post/boltzmann/</guid>
-      <description>&lt;h1 id=&#34;1-collision-frequency-in-ideal-gas&#34;&gt;1. Collision frequency in ideal gas&lt;/h1&gt;
-
-&lt;p&gt;$$\nu=n\pi d^2 \overline{g}$$&lt;/p&gt;
-
-&lt;p&gt;n is the number density, $\overline{g}$ is a mean relative velocity.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

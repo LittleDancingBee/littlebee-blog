@@ -10,6 +10,20 @@
   </url>
   
   <url>
+    <loc>https://littledancingbee.github.io/post/boltzmann_ch2/</loc>
+    <lastmod>2018-04-19T16:29:35-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littledancingbee.github.io/post/boltzmann_ch1/</loc>
+    <lastmod>2018-04-19T16:28:29-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://littledancingbee.github.io/post/cluster/</loc>
     <lastmod>2018-04-17T14:24:48-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,13 +45,6 @@
   </url>
   
   <url>
-    <loc>https://littledancingbee.github.io/post/boltzmann/</loc>
-    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://littledancingbee.github.io/post/fit-with-heavy-tail-distribution/</loc>
     <lastmod>2018-04-14T18:04:29-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -53,14 +60,14 @@
   
   <url>
     <loc>https://littledancingbee.github.io/categories/an-introduction-to-the-boltzmann-equation-and-transport-processes-in-gases-by-gilberto-medeiros-kremer/</loc>
-    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <lastmod>2018-04-19T16:29:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://littledancingbee.github.io/tags/boltzman/</loc>
-    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <lastmod>2018-04-19T16:29:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -95,7 +102,7 @@
   
   <url>
     <loc>https://littledancingbee.github.io/post/</loc>
-    <lastmod>2018-04-17T14:24:48-04:00</lastmod>
+    <lastmod>2018-04-19T16:29:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -109,7 +116,7 @@
   
   <url>
     <loc>https://littledancingbee.github.io/tags/</loc>
-    <lastmod>2018-04-14T18:04:29-04:00</lastmod>
+    <lastmod>2018-04-19T16:29:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
