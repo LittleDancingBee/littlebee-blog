@@ -1,6 +1,6 @@
 ---
-title: "Chap 1"
-date: 2018-04-14T18:04:29-04:00
+title: "Chap 1 Basic Principles of the Kinetic Theory"
+date: 2018-04-19T16:28:29-04:00
 draft: False
 categories: ["An Introduction to the Boltzmann Equation and Transport Processes in Gases by Gilberto Medeiros Kremer"]
 tags: ["Boltzman"]
@@ -235,7 +235,7 @@ then
 $$s\_0=\frac{b}{d}(\frac{\mu g^2}{\kappa'})^{\frac{1}{\nu-1}}$$
 
 and 
-$$\lim_{\nu \to \infty}=\frac{b}{d}$$
+$$\lim_{\nu \to \infty} s\_0=\frac{b}{d}$$
 
 for $r\gg d$, $\lim\_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{\_0}})^{\nu-1}=0$, then $\chi=\pi-\int\_{0}^{s\_{max}}(2 / \sqrt{1-s^2} ds=2\arccos s\_{max}$, where $s\_{max}=b/r^{min}$
 
@@ -246,4 +246,32 @@ for $r\gg d$, $\lim\_{\nu\to\infty}\frac{1}{\nu-1}(\frac{s}{s{\_0}})^{\nu-1}=0$,
 {{% figure class="center" src="/boltzmann/differentialcrosssection" alt="hugo even showcase" title="Differential Cross Section" %}}
 
 The differential cross section, a function of the scattering angle and of the kinetic energy of the relative motion $\sigma(\chi,g)$, is defined as the ratio of the number of scattered particles $\Delta N$ per unit of time and per element of solid angle ($d\Omega=\sin\chi d\chi d\epsilon$), and the flux of the impinged molecules:
-$$\sigma (\chi,g)=\frac{\Delta N(\Delta t d\Omega)}{\Delta N/(\Delta t b db d\epsilon}=\frac{bdbd\epsilon}{d\Omega}$$
+$$\sigma (\chi,g)=\frac{\Delta N(\Delta t d\Omega)}{\Delta N/(\Delta t b db d\epsilon}=\frac{bdbd\epsilon}{d\Omega}=\frac{b}{\sin\chi}|\frac{db}{d\chi}|$$
+
+The effective cross section of order $l$ is defined by
+$$Q^{(l)}(g)=\int_0^\pi(1-\cos^l\chi)\sigma(\chi,g)\sin\chi d\chi=\int_0^\infty(1-\cos^l\chi)bdb$$
+
+in which, $Q^{(1)}$ is called transport cross section, and $Q^{(2)}$ is called viscosity cross section.
+
+For a hard-sphere potential, the cross section is 
+$$\sigma=\frac{1}{4}d^2$$ and the effective cross section is 
+$$Q^{(l)}=\frac{1}{4}d^2[2-\frac{1+(-1)^l}{l+1}]$$.
+
+For the centers of repulsion potensitl
+$$\sigma=(\frac{\kappa}{\mu})^{\frac{2}{\nu-1}}g^{\frac{-4}{\nu-1}}\frac{s_0}{\sin\chi}|\frac{ds\_0}{d\chi}|$$ and
+$$Q^{(l)}=(\frac{\kappa}{\mu})^{\frac{2}{\nu-1}}g^{\frac{-4}{\nu-1}}A\_l(\nu)$$
+and 
+$$A_l(\nu)=\int_0^\infty(1-\cos^l\chi)s\_0ds\_0$$
+# Appendix - Gamma Function
+$$\int\_0^\infty x^n e^{-\alpha x^2}dx=\frac{1}{2}\Gamma(\frac{n+1}{2})(\frac{1}{\alpha})^{\frac{n+1}{2}}$$
+
+And
+$$\left\\{
+\begin{align}
+&\Gamma(n+1)  = n\Gamma(n) \newline
+&\Gamma(1) = 1 \newline
+&\Gamma(\frac{1}{2})  = \sqrt{\pi}
+\end{align}
+\right.
+$$
+
